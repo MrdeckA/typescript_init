@@ -16,7 +16,24 @@ const _increment : (e : Event) => void = (e : Event) =>{
 compteur.addEventListener('click', _increment)
 
 
+type tableau = [String, String, number]
+class A{
+    name: String = ''
 
+    function<T, a> (a : tableau | T) : tableau | T{
+        return a
+    }
+}
 
+interface  A {
+    names : Number
+}
+
+let increment : number=0;
+const tabs : tableau=[
+    "me", 'you', 5
+]
+
+console.log(...tabs)
 
  

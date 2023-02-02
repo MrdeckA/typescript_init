@@ -9,3 +9,17 @@ var _increment = function (e) {
     }
 };
 compteur.addEventListener('click', _increment);
+var A = /** @class */ (function () {
+    function A() {
+        this.name = '';
+    }
+    A.prototype["function"] = function (a) {
+        return a;
+    };
+    return A;
+}());
+var increment = 0;
+var tabs = [
+    "me", 'you', 5
+];
+console.log.apply(console, tabs);
